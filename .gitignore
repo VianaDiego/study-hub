@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+## --- ARQUIVOS DE CONFIGURAÇÃO E SENHAS (CRÍTICO) ---
+
+.env
+.env.local
+*.pem
+*.pkcs12
+*.key
+credentials.json
+ibm-credentials.env 
+
+## --- PYTHON ---
+
+**pycache**/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.ipynb_checkpoints/ 
+
+## --- JAVASCRIPT / WEB (Node) ---
+
+node_modules/
+.pnpm-store/
+dist/
+build/ 
+
+## --- SISTEMA OPERACIONAL ---
+
+.DS_Store
+Thumbs.db
