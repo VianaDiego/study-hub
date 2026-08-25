@@ -248,3 +248,18 @@ build/ 
 
 .DS_Store
 Thumbs.db
+
+### --- SEGURANÇA IBM CLOUD & APIS (ADICIONADO) ---
+
+.env
+.env.local
+.env.*
+*.pem
+*.pkcs12
+*.key
+credentials.json
+ibm-credentials.env
+ibm-cloud-config.json
+tokens.json
+config.ini
+secrets.txt
